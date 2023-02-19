@@ -1,3 +1,6 @@
+
+/* header css */
+
 #background-video {
     width: 100vw;
     height: 100vh;
@@ -10,3 +13,44 @@
     z-index: -1;
     opacity: 50%;
   }
+
+  .header{
+    display: flex;
+     gap: 50%; 
+    background-color: hsla(183, 100%, 51%, 0.6);
+    max-width:100%;
+    max-height: 40px;
+    justify-content: space-around;
+    
+  }
+
+
+  .left{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 2px;
+    padding-top: 0px;
+
+  }
+
+  h6{
+    font-weight:2200;
+    font-size: 60;
+    width: 30px;
+    border: 100px;
+   }
+   
+   a{ 
+    padding-left: 5px;
+    text-decoration: none;
+    color: black;
+   }
+  
+
+  .right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+   
+  }
+  /* end here */
