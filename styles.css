@@ -9,13 +9,14 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-  opacity: 50%;
+  opacity: 90%;
 } 
 
 .container{
-  background-color: rgba(3, 0, 84,0.4);
+  background-color: #28363d;
   padding-bottom: 40px;
   border-radius: 10px;
+  color: aliceblue;
   
 } 
 
@@ -55,7 +56,8 @@ body{
  a{
   text-decoration: none;
   padding-right:  10px;
-  font-size: 18px;
+  font-size: 15px;
+  color: aliceblue;
  }
 
  /* description */
@@ -63,6 +65,7 @@ body{
  #description{
   display: flex; 
   justify-content: space-around;
+  
  }
 
  .left1{
@@ -78,8 +81,9 @@ body{
   font-weight: 48px;
  }
 
- button{
-  background-color: #3882f6;
+ .sign1{
+  background-color: #6d9197;
+  color: aliceblue;
   width: 20%;
   height: 15%;
   font-size: 15px;
@@ -115,10 +119,60 @@ figure{
 }
 
 .quotes{
- background-color:  rgb(233, 224, 224);
- margin-top: 90px;
+ background-color:  #e5e7eb;
+ margin-top: 70px;
  text-align: center;
  padding: 30px;
  font-size: x-large;
  font-weight: 34px;
+}
+
+.enquiries{
+  display: flex;
+  background-color:#6d9197;
+  justify-content: center;
+ 
+  height:10%;
+  padding-top: 5px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 70%;
+  border-radius: 10px;
+  gap :16%;
+  color: aliceblue;
+}
+
+.signbutton{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.489);
+  color: white;
+  font-size: small;
+  border-radius: 10px;
+  height: 9%;
+  width: 10%;
+}
+
+.line2{
+margin-top: -40px;
+font-size: large;
+}
+
+.signup{
+  margin-top: -15px;
+  padding-bottom: 10px;
+  text-align: center;
+ 
+}
+
+footer{
+  background-color: #28363d;
+  opacity: 90%;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  padding: 0.4px;
+  height: 20px;
 }
