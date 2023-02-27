@@ -1,5 +1,5 @@
 [class*="col-"] {  
-    width: 100%;  
+    width: 50%;  
 }  
 @media only screen and (min-width: 600px) {  
     /* For tablets: */  
@@ -65,7 +65,7 @@ h6{
   bottom: 0;
   z-index: -1;
   opacity: 90%;
-  padding-left: 2px;
+
 } 
 
 
