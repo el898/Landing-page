@@ -12,7 +12,10 @@ body{
   border-radius: 10px;
   color: aliceblue;
   
-} 
+}
+.content{
+  padding-left: 5%;
+}
 
 h6{
   padding-top: 40px;
@@ -78,7 +81,7 @@ h6{
 
  #description{
   display: flex; 
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 50px;
 
  
@@ -92,7 +95,7 @@ h6{
  }
 
  .left1{
-  padding-left: 100px;
+  padding-left: 0px;
   display: flex;
   flex-direction: column;
  }
