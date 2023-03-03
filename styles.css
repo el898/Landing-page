@@ -79,17 +79,25 @@ h6{
  #description{
   display: flex; 
   justify-content: space-around;
+  gap: 50px;
+
  
   
  }
 
- .left1{
-  padding-left: 100px;
+ #p1{
+ display: flex;
+ flex-wrap: wrap;
+ min-width: 200px;
  }
 
- .right1{
-  padding-right: 15px;
+ .left1{
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
  }
+
+
 
  h5{
   font-size: x-large;
@@ -106,6 +114,7 @@ h6{
   font-family:Comic Sans MS;
   border: 0;
   border-radius: 10px;
+  min-width: fit-content;
  }
 
 
@@ -114,7 +123,7 @@ h6{
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  gap: 100px;
+  gap: 50px;
   justify-content: center;
   flex-direction: row;
  }
@@ -147,6 +156,7 @@ figure{
   display: flex;
   background-color:#6d9197;
   justify-content: center;
+  flex-direction: column;
  
   height:10%;
   padding-top: 5px;
@@ -168,7 +178,7 @@ figure{
   font-size: small;
   border-radius: 10px;
   height: 9%;
-  max-width: 10%;
+  max-width: 40%
 }
 
 .line2{
