@@ -1,3 +1,6 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 html{
   box-sizing: border-box;
 }
@@ -41,6 +44,7 @@ h6{
   z-index: -1;
   opacity: 90%;
   min-width: 20%;
+  overflow: hidden;
   
 } 
 
@@ -95,13 +99,13 @@ h6{
  #p1{
  display: flex;
  flex-wrap: wrap;
- min-width: 170px;
+ /* min-width: 10px; */
  }
 
  .left1{
   padding-left: 0px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: row; */
  }
 
 
@@ -142,11 +146,7 @@ h6{
 
 
 }
-figure{
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+
 
 /* quotes */
 .quotes{
@@ -214,3 +214,42 @@ footer{
 }
 
 
+@media(max-width:768px){
+  #advert-video{
+    width: 185px;
+    height: 150px;
+
+  }
+  .header{
+   gap :2px;
+  }
+
+  a{
+    padding-right: 3px;
+  }
+
+  .photos{
+    gap: 45px;
+  }
+
+  #p1{
+    width :135px;
+    font-size: small;
+    font-weight: 200;
+
+  }
+
+  #advert-video{
+    margin-top: 80px;
+    margin-left: -150px;
+    padding-left: 2px;;
+    width: 130px;
+    height: 200px;
+
+  }
+
+  #heading{
+    width: 300px;
+   
+  }
+}
