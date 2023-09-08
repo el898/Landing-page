@@ -1,0 +1,253 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+html{
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+  min-width: 10px;
+ }
+
+.container{
+  background-color: #28363d;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  color: aliceblue;
+  min-width:105%;
+  
+}
+.content{
+  padding-left: 5%;
+}
+
+h6{
+  padding-top: 40px;
+  margin-left: -10px;
+}
+
+.logoimg{
+  height: 90px;;
+
+}
+
+
+  #advert-video {
+  width: 50vw;
+  height: 40vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 90%;
+  min-width: 20%;
+  overflow: hidden;
+  
+} 
+
+
+
+.left{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+ }
+
+ .right{
+  padding-top: 5px;
+ }
+
+
+ a{
+  text-decoration: none;
+  padding-right:  10px;
+  font-size: 17px;
+  color: aliceblue;
+  margin-left: 30px;
+ }
+
+ 
+ .header{
+  
+  display: flex;
+  gap:60%;
+  flex-grow: 1;
+ }
+
+ .intro{
+  text-align:center;
+  font-size: x-large;
+  font-weight: 48px;
+  margin-top: 2%;
+ }
+
+
+ /* description */
+
+ #description{
+  display: flex; 
+  justify-content: space-between;
+  gap: 10px;
+
+ 
+  
+ }
+
+ #p1{
+ display: flex;
+ flex-wrap: wrap;
+ /* min-width: 10px; */
+ }
+
+ .left1{
+  padding-left: 0px;
+  /* display: flex;
+  flex-direction: row; */
+ }
+
+
+
+ h5{
+  font-size: x-large;
+  font-weight: 48px;
+ }
+
+ .sign1{
+  background-color: #6d9197;
+  color: aliceblue;
+  width: 20%;
+  height: 15%;
+  font-size: 15px;
+  font-weight: 300px;
+  font-family:Comic Sans MS;
+  border: 0;
+  border-radius: 10px;
+  min-width: fit-content;
+ }
+
+
+/* Photos */
+ .photos{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 50px;
+  justify-content: center;
+  flex-direction: row;
+ }
+
+ 
+
+.dogs{
+  max-width: 10%;
+
+
+}
+
+
+/* quotes */
+.quotes{
+ background-color:  #e5e7eb;
+ margin-top: 70px;
+ text-align: center;
+ padding: 30px;
+ font-size: x-large;
+ font-weight: 34px;
+}
+
+/* enquiries */
+.enquiries{
+  display: flex;
+  background-color:#6d9197;
+  justify-content: center;
+  flex-direction: column;
+ 
+  height:10%;
+  padding-top: 5px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 80px;
+  max-width: 70%;
+  border-radius: 10px;
+  gap :16%;
+  color: aliceblue;
+}
+
+.signbutton{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.489);
+  color: white;
+  font-size: small;
+  border-radius: 10px;
+  height: 9%;
+  max-width: 40%
+}
+
+.line2{
+margin-top: -40px;
+font-size: large;
+}
+
+.signup{
+  margin-top: -15px;
+  padding-bottom: 10px;
+  text-align: center;
+  /* max-width: 10%; */
+ 
+}
+
+/* footer */
+
+footer{
+  background-color: #28363d;
+  opacity: 90%;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  padding: 0.4px;
+  height: 24px;
+}
+
+
+@media(max-width:768px){
+  #advert-video{
+    width: 185px;
+    height: 150px;
+
+  }
+  .header{
+   gap :2px;
+  }
+
+  a{
+    padding-right: 3px;
+  }
+
+  .photos{
+    gap: 45px;
+  }
+
+  #p1{
+    width :135px;
+    font-size: small;
+    font-weight: 200;
+
+  }
+
+  #advert-video{
+    margin-top: 80px;
+    margin-left: -150px;
+    padding-left: 2px;;
+    width: 130px;
+    height: 200px;
+
+  }
+
+  #heading{
+    width: 300px;
+   
+  }
+}
