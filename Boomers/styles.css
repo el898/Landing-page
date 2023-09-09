@@ -80,6 +80,7 @@ header {
     background-color: #ff5733;
 }
 
+
 /* Benefits section styles */
 .benefits {
     background-color: #f5f5f5;
@@ -96,7 +97,7 @@ header {
 .icon {
     flex: 1;
     text-align: center;
-    font-size: 48px;
+    font-size: 36px; 
     color: #3b8d99;
 }
 
@@ -106,23 +107,18 @@ header {
     text-align: left;
 }
 
-h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #3b8d99;
-}
 
-/* How It Works section styles */
 #how-it-works {
-    background-color: #f5f5f5;
     text-align: center;
     padding: 50px 0;
 }
 
 #video {
-    max-width: 100%;
+    max-width: 100%; /* Make the video responsive */
+    display: block; /* Remove any inline spacing */
+    margin: 0 auto; /* Center the video horizontally */
 }
+
 
 /* Pricing section styles */
 #pricing {
@@ -130,7 +126,7 @@ h2 {
     padding: 50px 0;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     flex-wrap: wrap;
 }
 
@@ -147,6 +143,38 @@ h2 {
     font-weight: bold;
     color: #3b8d99;
 }
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #3b8d99;
+}
+
+ol {
+    text-align: left;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff6b4e;
+}
+
 
 /* Footer section styles */
 footer {
